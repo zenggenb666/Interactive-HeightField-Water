@@ -1,0 +1,28 @@
+# === Unity 生成缓存（绝不提交）===
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# === IDE 临时文件（绝不提交）===
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.tmp
+
+# === 构建产物 ===
+*.apk
+*.aab
+*.unitypackage
+
+# === 可选：忽略超大 Lighting Data（可删此条如果不需要）===
+# *.lighting
+# /[Aa]ssets/[Ss]cene[Gg]I/
