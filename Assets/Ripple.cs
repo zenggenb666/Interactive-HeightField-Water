@@ -27,9 +27,6 @@ public class Ripple : MonoBehaviour
         RippleMat = new Material(RippleShader);
         GetComponent<Renderer>().material.mainTexture = CurrentRT;
         waterMaterial = GetComponent<Renderer>().material;
-
-        // 【新增2】关键步骤：把初始的 CurrentRT 赋值给材质的 MainTex
-        // 注意：如果你的 ASE 材质暴露的属性名不叫 "_MainTex"，请改成对应的名字（比如 "_BaseMap" 等）
         waterMaterial.SetTexture("MainTex", CurrentRT);
 
     }
